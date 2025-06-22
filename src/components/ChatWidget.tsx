@@ -1,13 +1,12 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader } from '@/components/ui/card';
-import { MessageSquare, X } from 'lucide-react';
+import { Card, CardContent } from '@/components/ui/card';
+import { MessageSquare } from 'lucide-react';
 
 import { useAuth } from '@/hooks/useAuth';
 
 import AuthView from '@/components/chat/AuthView';
 import ChatHeader from '@/components/chat/ChatHeader';
-import MessagesArea from './chat/MessagesArea';
 import Dashboard from '@/components/chat/Dashboard';
 
 const ChatWidget = () => {

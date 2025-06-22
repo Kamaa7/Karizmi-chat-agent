@@ -7,10 +7,9 @@ import { useToast } from '@/hooks/use-toast';
 interface ChatHeaderProps {
     toggleOpen: () => void;
     setCurrentView: (view: 'leadForm' | 'auth' | 'chat') => void;
-    currentView: 'leadForm' | 'auth' | 'chat';
 }
 
-const ChatHeader = ({ toggleOpen, setCurrentView, currentView }: ChatHeaderProps) => {
+const ChatHeader = ({ toggleOpen, setCurrentView }: ChatHeaderProps) => {
     const { user, signOut } = useAuth();
     const { toast } = useToast();
 
