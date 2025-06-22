@@ -1,4 +1,3 @@
-import React from 'react';
 import MessagesArea from './MessagesArea';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
@@ -6,7 +5,7 @@ import { Send } from 'lucide-react';
 
 const Dashboard = () => {
     return (
-        <div className="flex flex-col h-full">
+        <div className="h-full flex flex-col">
             <MessagesArea />
             <div className="p-4 border-t">
                  <div className="relative">

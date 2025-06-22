@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card';
-import { MessageSquare, X, Send } from 'lucide-react';
+import { Card, CardContent, CardHeader } from '@/components/ui/card';
+import { MessageSquare, X } from 'lucide-react';
 
 import { useAuth } from '@/hooks/useAuth';
 
